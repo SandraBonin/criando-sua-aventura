@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(16, 75, 75);
+    color:black;
+    font-family: "Pixelify Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:700px;
+    margin:0;
+}
+
+button{
+    background-color: rgba(99, 32, 105, 0.527);
+    color: rgb(196, 196, 196);
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+      max-width: 40%;
+}
+
+img{
+    max-width: 90%;
+}
